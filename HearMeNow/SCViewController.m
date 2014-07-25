@@ -77,7 +77,7 @@
                 NSLog (@"add log info");
             }
         }];
-        NSLog(@"something here");
+       
     }
     
     // add some comments here

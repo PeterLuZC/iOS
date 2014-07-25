@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3B141981981ED2D00F83CD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B141971981ED2D00F83CD4 /* Foundation.framework */; };
+		C3B1419A1981ED2D00F83CD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B141991981ED2D00F83CD4 /* CoreGraphics.framework */; };
+		C3B1419C1981ED2D00F83CD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B1419B1981ED2D00F83CD4 /* UIKit.framework */; };
+		C3B141A21981ED2D00F83CD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3B141A01981ED2D00F83CD4 /* InfoPlist.strings */; };
+		C3B141A41981ED2D00F83CD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B141A31981ED2D00F83CD4 /* main.m */; };
+		C3B141A81981ED2D00F83CD4 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B141A71981ED2D00F83CD4 /* SCAppDelegate.m */; };
+		C3B141AB1981ED2D00F83CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B141A91981ED2D00F83CD4 /* Main.storyboard */; };
+		C3B141AE1981ED2D00F83CD4 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B141AD1981ED2D00F83CD4 /* SCViewController.m */; };
+		C3B141B01981ED2D00F83CD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B141AF1981ED2D00F83CD4 /* Images.xcassets */; };
+		C3B141B71981ED2D00F83CD4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B141B61981ED2D00F83CD4 /* XCTest.framework */; };
+		C3B141B81981ED2D00F83CD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B141971981ED2D00F83CD4 /* Foundation.framework */; };
+		C3B141B91981ED2D00F83CD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B1419B1981ED2D00F83CD4 /* UIKit.framework */; };
+		C3B141C11981ED2D00F83CD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3B141BF1981ED2D00F83CD4 /* InfoPlist.strings */; };
+		C3B141C31981ED2D00F83CD4 /* HearMeNowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B141C21981ED2D00F83CD4 /* HearMeNowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3B141BA1981ED2D00F83CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B1418C1981ED2D00F83CD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B141931981ED2D00F83CD4;
+			remoteInfo = HearMeNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3B141941981ED2D00F83CD4 /* HearMeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearMeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B141971981ED2D00F83CD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3B141991981ED2D00F83CD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3B1419B1981ED2D00F83CD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3B1419F1981ED2D00F83CD4 /* HearMeNow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HearMeNow-Info.plist"; sourceTree = "<group>"; };
+		C3B141A11981ED2D00F83CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3B141A31981ED2D00F83CD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3B141A51981ED2D00F83CD4 /* HearMeNow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HearMeNow-Prefix.pch"; sourceTree = "<group>"; };
+		C3B141A61981ED2D00F83CD4 /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		C3B141A71981ED2D00F83CD4 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		C3B141AA1981ED2D00F83CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3B141AC1981ED2D00F83CD4 /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		C3B141AD1981ED2D00F83CD4 /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		C3B141AF1981ED2D00F83CD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3B141B51981ED2D00F83CD4 /* HearMeNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearMeNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B141B61981ED2D00F83CD4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3B141BE1981ED2D00F83CD4 /* HearMeNowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HearMeNowTests-Info.plist"; sourceTree = "<group>"; };
+		C3B141C01981ED2D00F83CD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3B141C21981ED2D00F83CD4 /* HearMeNowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HearMeNowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3B141911981ED2D00F83CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B1419A1981ED2D00F83CD4 /* CoreGraphics.framework in Frameworks */,
+				C3B1419C1981ED2D00F83CD4 /* UIKit.framework in Frameworks */,
+				C3B141981981ED2D00F83CD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B141B21981ED2D00F83CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B141B71981ED2D00F83CD4 /* XCTest.framework in Frameworks */,
+				C3B141B91981ED2D00F83CD4 /* UIKit.framework in Frameworks */,
+				C3B141B81981ED2D00F83CD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3B1418B1981ED2D00F83CD4 = {
+			isa = PBXGroup;
+			children = (
+				C3B1419D1981ED2D00F83CD4 /* HearMeNow */,
+				C3B141BC1981ED2D00F83CD4 /* HearMeNowTests */,
+				C3B141961981ED2D00F83CD4 /* Frameworks */,
+				C3B141951981ED2D00F83CD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3B141951981ED2D00F83CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B141941981ED2D00F83CD4 /* HearMeNow.app */,
+				C3B141B51981ED2D00F83CD4 /* HearMeNowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B141961981ED2D00F83CD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B141971981ED2D00F83CD4 /* Foundation.framework */,
+				C3B141991981ED2D00F83CD4 /* CoreGraphics.framework */,
+				C3B1419B1981ED2D00F83CD4 /* UIKit.framework */,
+				C3B141B61981ED2D00F83CD4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B1419D1981ED2D00F83CD4 /* HearMeNow */ = {
+			isa = PBXGroup;
+			children = (
+				C3B141A61981ED2D00F83CD4 /* SCAppDelegate.h */,
+				C3B141A71981ED2D00F83CD4 /* SCAppDelegate.m */,
+				C3B141A91981ED2D00F83CD4 /* Main.storyboard */,
+				C3B141AC1981ED2D00F83CD4 /* SCViewController.h */,
+				C3B141AD1981ED2D00F83CD4 /* SCViewController.m */,
+				C3B141AF1981ED2D00F83CD4 /* Images.xcassets */,
+				C3B1419E1981ED2D00F83CD4 /* Supporting Files */,
+			);
+			path = HearMeNow;
+			sourceTree = "<group>";
+		};
+		C3B1419E1981ED2D00F83CD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1419F1981ED2D00F83CD4 /* HearMeNow-Info.plist */,
+				C3B141A01981ED2D00F83CD4 /* InfoPlist.strings */,
+				C3B141A31981ED2D00F83CD4 /* main.m */,
+				C3B141A51981ED2D00F83CD4 /* HearMeNow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3B141BC1981ED2D00F83CD4 /* HearMeNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B141C21981ED2D00F83CD4 /* HearMeNowTests.m */,
+				C3B141BD1981ED2D00F83CD4 /* Supporting Files */,
+			);
+			path = HearMeNowTests;
+			sourceTree = "<group>";
+		};
+		C3B141BD1981ED2D00F83CD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B141BE1981ED2D00F83CD4 /* HearMeNowTests-Info.plist */,
+				C3B141BF1981ED2D00F83CD4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3B141931981ED2D00F83CD4 /* HearMeNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B141C61981ED2E00F83CD4 /* Build configuration list for PBXNativeTarget "HearMeNow" */;
+			buildPhases = (
+				C3B141901981ED2D00F83CD4 /* Sources */,
+				C3B141911981ED2D00F83CD4 /* Frameworks */,
+				C3B141921981ED2D00F83CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HearMeNow;
+			productName = HearMeNow;
+			productReference = C3B141941981ED2D00F83CD4 /* HearMeNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3B141B41981ED2D00F83CD4 /* HearMeNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B141C91981ED2E00F83CD4 /* Build configuration list for PBXNativeTarget "HearMeNowTests" */;
+			buildPhases = (
+				C3B141B11981ED2D00F83CD4 /* Sources */,
+				C3B141B21981ED2D00F83CD4 /* Frameworks */,
+				C3B141B31981ED2D00F83CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B141BB1981ED2D00F83CD4 /* PBXTargetDependency */,
+			);
+			name = HearMeNowTests;
+			productName = HearMeNowTests;
+			productReference = C3B141B51981ED2D00F83CD4 /* HearMeNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3B1418C1981ED2D00F83CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Peter Lu";
+				TargetAttributes = {
+					C3B141B41981ED2D00F83CD4 = {
+						TestTargetID = C3B141931981ED2D00F83CD4;
+					};
+				};
+			};
+			buildConfigurationList = C3B1418F1981ED2D00F83CD4 /* Build configuration list for PBXProject "HearMeNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3B1418B1981ED2D00F83CD4;
+			productRefGroup = C3B141951981ED2D00F83CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3B141931981ED2D00F83CD4 /* HearMeNow */,
+				C3B141B41981ED2D00F83CD4 /* HearMeNowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3B141921981ED2D00F83CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B141B01981ED2D00F83CD4 /* Images.xcassets in Resources */,
+				C3B141A21981ED2D00F83CD4 /* InfoPlist.strings in Resources */,
+				C3B141AB1981ED2D00F83CD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B141B31981ED2D00F83CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B141C11981ED2D00F83CD4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3B141901981ED2D00F83CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B141A81981ED2D00F83CD4 /* SCAppDelegate.m in Sources */,
+				C3B141AE1981ED2D00F83CD4 /* SCViewController.m in Sources */,
+				C3B141A41981ED2D00F83CD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B141B11981ED2D00F83CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B141C31981ED2D00F83CD4 /* HearMeNowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3B141BB1981ED2D00F83CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B141931981ED2D00F83CD4 /* HearMeNow */;
+			targetProxy = C3B141BA1981ED2D00F83CD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3B141A01981ED2D00F83CD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B141A11981ED2D00F83CD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3B141A91981ED2D00F83CD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B141AA1981ED2D00F83CD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3B141BF1981ED2D00F83CD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B141C01981ED2D00F83CD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3B141C41981ED2E00F83CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3B141C51981ED2E00F83CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3B141C71981ED2E00F83CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HearMeNow/HearMeNow-Prefix.pch";
+				INFOPLIST_FILE = "HearMeNow/HearMeNow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3B141C81981ED2E00F83CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HearMeNow/HearMeNow-Prefix.pch";
+				INFOPLIST_FILE = "HearMeNow/HearMeNow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3B141CA1981ED2E00F83CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HearMeNow.app/HearMeNow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HearMeNow/HearMeNow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HearMeNowTests/HearMeNowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3B141CB1981ED2E00F83CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HearMeNow.app/HearMeNow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HearMeNow/HearMeNow-Prefix.pch";
+				INFOPLIST_FILE = "HearMeNowTests/HearMeNowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3B1418F1981ED2D00F83CD4 /* Build configuration list for PBXProject "HearMeNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B141C41981ED2E00F83CD4 /* Debug */,
+				C3B141C51981ED2E00F83CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B141C61981ED2E00F83CD4 /* Build configuration list for PBXNativeTarget "HearMeNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B141C71981ED2E00F83CD4 /* Debug */,
+				C3B141C81981ED2E00F83CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3B141C91981ED2E00F83CD4 /* Build configuration list for PBXNativeTarget "HearMeNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B141CA1981ED2E00F83CD4 /* Debug */,
+				C3B141CB1981ED2E00F83CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3B1418C1981ED2D00F83CD4 /* Project object */;
+}

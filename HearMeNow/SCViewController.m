@@ -74,6 +74,7 @@
             else
             {
                 NSLog(@"Unable to record");
+                NSLog (@"add log info");
             }
         }];
     }
